@@ -48,8 +48,8 @@ numberOfExoplanets = user.nextInt();
 System.out.println("1 (100% of these planets will develop life)");
 f_l = user.nextDouble();
 
+System.out.println("1 (100% of which will develop intelligent life)");
+f_i = user.nextDouble();
 
-
-    }
 
 }
