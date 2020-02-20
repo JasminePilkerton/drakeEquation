@@ -31,11 +31,17 @@ double f_c;
 int L;
 Scanner user;
 
-user = new Scanner(System.in)
+user = new Scanner(System.in);
 N = rStar * f_p * f_l * f_i * f_c * L;
 
 System.out.println("number of intelligent species that are out there \n" +
         "that can communicate with us is: " + N);
+System.out.println("How many years passed");
+rStar = user.nextInt();
+
+
+
+
     }
 
 }
