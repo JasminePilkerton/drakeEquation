@@ -42,6 +42,10 @@ rStar = user.nextInt();
 System.out.println(" 0.2 to 0.5 (one fifth to one half of all stars formed will have planets)");
 f_p = user.nextDouble();
 
+System.out.println("1 to 5 (stars with planets will have between 1 and 5 planets capable of developing life)");
+numberOfExoplanets = user.nextInt();
+
+
 
     }
 
